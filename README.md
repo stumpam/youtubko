@@ -1,4 +1,4 @@
-# Telka - Elgato Stream deck plugin for Youtube integration
+# Youtubko - Elgato Stream deck plugin for Youtube integration
 
 With this plugin you can control YouTube site by Elgato Stream deck.
 
