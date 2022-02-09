@@ -1,0 +1,64 @@
+{
+  "Actions": [
+    {
+      "Icon": "actionIcon",
+      "Name": "Fullscreen",
+      "States": [
+        {
+          "Name": "fullscreen"
+        },
+        {
+          "Name": "normal"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Přepínač fullscreenu.",
+      "UUID": "eu.stumpa.youtubko.fullscreen"
+    },
+    {
+      "Icon": "actionIcon",
+      "Name": "Přesun videa",
+      "States": [
+        {
+          "Name": "default"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Přesunout video o X sekund.",
+      "UUID": "eu.stumpa.youtubko.seek"
+    },
+    {
+      "Icon": "actionIcon",
+      "Name": "Nyní hraje na YT",
+      "States": [
+        {
+          "Image": "actionDefaultImage",
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Zobrazí aktuální video a stav přehrávání.",
+      "UUID": "eu.stumpa.youtubko.play"
+    }
+  ],
+  "SDKVersion": 2,
+  "Author": "Stumpam",
+  "CodePath": "code.html",
+  "Description": "Track the number of times you press a key.",
+  "PropertyInspectorPath": "pi/pi.html",
+  "Category": "Youtubko",
+  "Name": "Youtubko",
+  "Icon": "pluginIcon",
+  "URL": "https://www.elgato.com/gaming/stream-deck",
+  "Version": "1.0",
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Software": {
+    "MinimumVersion": "4.1"
+  }
+}
